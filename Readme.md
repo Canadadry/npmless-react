@@ -20,6 +20,8 @@ It will tell you what url to open
 
 ## Build and deploy
 
+Build it with `make` and upload the `www` where you want
+
 ```bash
 make build
 rsync  www/ user@serverIP_or_name:/var/www/mypage.example.org
