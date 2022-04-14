@@ -29,7 +29,7 @@ rsync  www/ user@serverIP_or_name:/var/www/mypage.example.org
 
 ## Update react
 
- 1. Find minified version of `react` and `react-dom`. We've taken ours from [unpkg.com](unpkg.com)
+ 1. Find minified version of `react` and `react-dom`. We've taken ours from [unpkg.com](unpkg.com) find the [umd](https://github.com/umdjs/umd) version
  2. Replace old by the newly downloaded in `vendor/`
  3. Replace export `require("react")` by `require("./react")` in `vendor/react-dom.js`
  4. Enjoy
